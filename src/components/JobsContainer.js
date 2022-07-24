@@ -10,11 +10,12 @@ import PageBtnContainer from './PageBtnContainer';
 const JobsContainer = () => {
 
     const { jobs, isLoading, page, sort, searchType, searchStatus, search, totalJobs, numOfPages } = useSelector((store) => store.allJobs);
-    // console.log(numOfPages);
+  
     const dispatch = useDispatch()
 
     useEffect(() =>{
         dispatch(getAllJobs())
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[page, sort, searchType, searchStatus, search])
 
    

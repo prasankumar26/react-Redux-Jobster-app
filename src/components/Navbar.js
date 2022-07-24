@@ -10,10 +10,9 @@ const Navbar = () => {
 
     const [showLogOut, setShowLogOut] = useState(false)
 
-    const {user, isSidebarOpen} = useSelector((stote) => stote.user)
+    const {user} = useSelector((stote) => stote.user)
     const dispatch = useDispatch()
 
-    // console.log(isSidebarOpen);
 
     const toggle = () =>{
         dispatch(toggleSidebar())
