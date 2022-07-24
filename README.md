@@ -16,7 +16,7 @@ Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.c
 npm run install && npm start
 ```
 
-- visit url http://localhost:3000/
+- visit url https://jobsappp.netlify.app/
 
 #### Setup React App
 
